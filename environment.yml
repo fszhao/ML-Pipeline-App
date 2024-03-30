@@ -1,0 +1,19 @@
+name: mlapp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - jupyterlab
+  - ipython
+  - ipykernel
+  - networkx
+  - streamlit=1.29
+  - ydata_profiling
+  - pycaret
+  - os
+  - streamlit_pandas_profiling

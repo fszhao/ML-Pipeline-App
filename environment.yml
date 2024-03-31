@@ -5,6 +5,9 @@ dependencies:
   - python=3.11
   - numpy
   - scipy
+  - pycaret
+  - pandas
+  - sklearn
   - matplotlib
   - seaborn
   - jupyter
@@ -13,7 +16,6 @@ dependencies:
   - ipykernel
   - networkx
   - streamlit=1.29
-  - ydata_profiling
-  - pycaret
-  - os
   - streamlit_pandas_profiling
+  - ydata_profiling
+

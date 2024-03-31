@@ -1,8 +1,8 @@
-# A* Search Algorithm Using Streamlit
+# Machine Learning Pipeline with Streamlit
 
 ## Overview:
  
-Welcome to the A* Search Algorithm Visualization App! This Streamlit application demonstrates the A* search algorithm in action, allowing users to interactively explore how the algorithm finds the optimal path from a start to a goal in a grid-based environment.
+This streamlit app enables data scientists to upload, train, evaluate multiple machine learning models. 
 
 
 ## Setup
@@ -26,9 +26,6 @@ The app features a bunch of examples of what you can do with Streamlit. Jump to 
 
 
 ## Features
-- Map Choice: Select between two map sizes.
-
-- Run A Algorithm:* Click the "Run A* Algorithm" button to visualize how the A* algorithm explores the grid, finding the shortest path from the start to the goal.
 
 
 <img src="https://github.com/fszhao/A-Star-Search-Algorithm-In-Streamlit/blob/main/demo.gif" width=1200 alt="Demo"></img>
@@ -36,5 +33,5 @@ The app features a bunch of examples of what you can do with Streamlit. Jump to 
 
 ## Resources
 
-- https://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
-- https://www.redblobgames.com/pathfinding/a-star/introduction.html 
+- https://pycaret.readthedocs.io/en/latest/
+- https://docs.streamlit.io/

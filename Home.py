@@ -35,7 +35,8 @@ if os.path.exists("input_data.csv"):
 else:
     st.write("By default, we will use the UCI Wisconsin Breast Cancer Dataset")
     df = pd.read_csv('data/wisc_bc_data.csv')
-    #st.dataframe(df)
+    #temp - size down dataset so st can handle profile report
+    df.drop(df.tail(500).index, inplace = True)
     st.session_state.df = df
 
     

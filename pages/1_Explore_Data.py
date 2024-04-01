@@ -7,6 +7,7 @@ import pandas as pd
 st.set_page_config(
     page_title="Model Comparison",
     page_icon="",
+    layout="wide"
 )
 
 # Retrieve the data from session state

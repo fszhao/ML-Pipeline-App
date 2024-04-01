@@ -7,7 +7,7 @@ dependencies:
   - scipy
   - pycaret
   - pandas
-  - sklearn
+  - scikit-learn
   - matplotlib
   - seaborn
   - jupyter

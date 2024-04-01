@@ -8,13 +8,13 @@ from streamlit_pandas_profiling import st_profile_report
 
 from pycaret.classification import setup, compare_models, pull, save_model
 
+if os.path.exists("sourcedata.csv"):
+    df = pd.rerad_csv("sourcedata.csv", index_col=None)
+
 with st.sidebar:
     #st.image()
     st.title("Machine Learning Model Comparitor")
     choice = st.radio("Navigation", ["Data Evalution", "Model Comparison", "Model Download"])
-
-if os.path.exists("sourcedata.csv"):
-    df = pd.rerad_csv("sourcedata.csv", index_col=None)
 
 if choice == "Data Evalution":
     st.title("File Upload for Modeling")
@@ -46,5 +46,5 @@ if choice == "Model Comparison":
 
 if choice == "Model Download":
     st.title("Download the Best Performing Model")
-    with ("best_model.pkl", 'rb') as f:
+    with open("best_model.pkl", 'rb') as f:
         st.download_button("Download Model File", f, "best_model.pkl")
